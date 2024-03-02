@@ -2,7 +2,7 @@
 
 > only tested on windows 10
 
-## Prerequisite
+#### Prerequisite
 
 - install raylib via [VCPKG](https://learn.microsoft.com/en-us/vcpkg/get_started/get-started?pivots=shell-cmd)
 
@@ -17,7 +17,7 @@
 - (optional) clangd
   > language server and provide c++ features
 
-## Command
+#### Command
 
 build
 
@@ -43,6 +43,6 @@ clean build
 make clean
 ```
 
-### License
+#### License
 
 [MIT](https://github.com/muhimron90/muhi-simple-raylib/blob/main/LICENSE)
