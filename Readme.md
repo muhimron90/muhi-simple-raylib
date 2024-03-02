@@ -1,18 +1,26 @@
-## Basic setup
+## Project setup using raylib
 
-> only tested on windows 10
+> only tested on windows 10 64bit
 
 #### Prerequisite
 
 - install raylib via [VCPKG](https://learn.microsoft.com/en-us/vcpkg/get_started/get-started?pivots=shell-cmd)
 
   > VCPKG root directory c:/dev/vcpkg
+  > vcpkg --version
+  > vcpkg add port raylib
 
 - c/c++ compilers via [Mingw64](https://www.msys2.org/) or whatsoever
 
+  > g++ --version
+
 - cmake
 
+  > cmake --version
+
 - make
+
+  > make --version
 
 - (optional) clangd
   > language server and provide c++ features
@@ -23,12 +31,6 @@ build
 
 ```sh
 make build
-```
-
-build release
-
-```sh
-make release
 ```
 
 run a program
@@ -45,4 +47,4 @@ make clean
 
 #### License
 
-[MIT](https://github.com/muhimron90/muhi-simple-raylib/blob/main/LICENSE)
+[MIT](https://github.com/muhimron90/muhi-raylib-starter/blob/main/LICENSE)

@@ -1,5 +1,2 @@
-build
-cmake_run.md
+build/
 .cache
-junk_links.txt
-*.bak

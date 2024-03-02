@@ -1,18 +1,17 @@
-PROJECT_NAME=demo
+PROJECT_NAME=muhi-raylib
 
-build:
-	cmake -B build -S .
-	cmake --build build
+.PHONY : default build run clean
+default:
+	cmake --preset=default
+
+build: default
+	cmake --build --preset=default
 
 run:
 	./build/${PROJECT_NAME}
-	
-release:
-	cmake -Bbuild -S . -DCMAKE_BUILD_TYPE=Release --fresh
-	cmake --build build
+
+#test:
+#	ctest --preset default
 
 clean:
-	rm -rf ./build
-
-.PHONY : build run clean
-
+	rm -rf build .cache
