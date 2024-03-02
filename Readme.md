@@ -6,21 +6,21 @@
 
 - install raylib via [VCPKG](https://learn.microsoft.com/en-us/vcpkg/get_started/get-started?pivots=shell-cmd)
 
-  > VCPKG root directory c:/dev/vcpkg
-  > vcpkg --version
-  > vcpkg add port raylib
+  - VCPKG root directory _c:/dev/vcpkg_
+    > _vcpkg --version_ \
+    > _vcpkg add port raylib_
 
 - c/c++ compilers via [Mingw64](https://www.msys2.org/) or whatsoever
 
-  > g++ --version
+  > _g++ --version_
 
 - cmake
 
-  > cmake --version
+  > _cmake --version_
 
 - make
 
-  > make --version
+  > _make --version_
 
 - (optional) clangd
   > language server and provide c++ features
@@ -47,4 +47,4 @@ make clean
 
 #### License
 
-[MIT](https://github.com/muhimron90/muhi-raylib-starter/blob/main/LICENSE)
+[MIT](https://github.com/muhimron90/muhi-simple-raylib/blob/main/LICENSE)
