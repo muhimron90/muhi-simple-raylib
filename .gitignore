@@ -1,2 +1,5 @@
 build
-readme.md
+cmake_run.md
+.cache
+junk_links.txt
+*.bak
