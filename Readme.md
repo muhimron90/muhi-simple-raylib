@@ -7,8 +7,7 @@
 - install raylib via [VCPKG](https://learn.microsoft.com/en-us/vcpkg/get_started/get-started?pivots=shell-cmd)
 
   - VCPKG root directory _c:/dev/vcpkg_
-    > _vcpkg --version_ \
-    > _vcpkg add port raylib_
+    > _vcpkg --version_
 
 - c/c++ compilers via [Mingw64](https://www.msys2.org/) or whatsoever
 
@@ -22,8 +21,12 @@
 
   > _make --version_
 
+- Ninja
+
 - (optional) clangd
   > language server and provide c++ features
+
+_PS: cmake make Ninja can be installed with Mingw64_
 
 #### Command
 

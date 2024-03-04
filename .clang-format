@@ -1,11 +1,13 @@
 ---
-# We'll use defaults from the LLVM style, but with 4 columns indentation.
-BasedOnStyle: WebKit
+# clang style format
+# https://clang.llvm.org/docs/ClangFormatStyleOptions.html#
+BasedOnStyle: Webkit
 AlignAfterOpenBracket: Align
 AlignConsecutiveDeclarations: "false"
 BreakBeforeBraces: Allman
 NamespaceIndentation: All
 IndentWidth: 4
+ColumnLimit: 79
 ---
 Language: Cpp
 # Force pointers to the type for C++.
